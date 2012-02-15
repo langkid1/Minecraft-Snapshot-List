@@ -1,3 +1,4 @@
+<!--- I apologize for the lack of syntax highlighting, but only .php files will be processed by PHP --->
 <html>
 <head>
 <title>Complete list of Minecraft "snapshots"</title>
