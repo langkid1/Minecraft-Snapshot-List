@@ -1,4 +1,5 @@
 <?php
+
         $snaplistfiles = fopen("snapshots.txt", "r");
         $snaplistfile = fread($snaplistfiles, "999");
         $snaplist = explode(";", $snaplistfile);
