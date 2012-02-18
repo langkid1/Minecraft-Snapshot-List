@@ -88,6 +88,7 @@
 		<p style="font-size:14px;" class="main">Does not include any of the "pre-releases" before the release of Minecraft 1.0</p>
 		<p style="font-size:14px;" class="main">The links listed here do NOT point to any files locally hosted, all links go to external websites.</p>
 		<p style="font-size:14px;" class="main">This website is not affiliated with Minecraft Wiki or mojang.</p>
+                <p style="font-size:14px" class="main">Found a error or bug? Please email <a href="mailto:admin@langkid1.me">admin@langkid1.me</a> to report it!</p>
 		<p style="font-size:14px;" class="main">This page is powered by PHP.</p>
 		<!--
 		Example code for a row
