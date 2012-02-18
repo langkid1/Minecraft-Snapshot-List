@@ -1,10 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-
 <html>
 	<head>
 		<title>Complete list of Minecraft "snapshots"</title>
 		<script type="text/javascript">
-
 		  var _gaq = _gaq || [];
 		  _gaq.push(['_setAccount', 'UA-26121955-1']);
 		  _gaq.push(['_setDomainName', 'langkid1.me']);
@@ -15,7 +12,6 @@
 			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
-
 		</script>
 		<style type="text/css">
 		.main {
