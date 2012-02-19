@@ -2,9 +2,12 @@
 /*
  * It is worth noting that this file is NOT displayed in any way in the production web page.
  * This page is run by a CRON job every 5 minutes to keep the snapshots.txt file up to date with the snapshot list :)
- * 
  */
-$snapshotsfile = fopen("snapshots.txt", "w b");
+$log = fopen("snapshotGetter.log", "a");
+$date = date("D m-d-y h:i A");
+fwrite($log, "*RUN ON $date\n");
+fclose($log);
+$snapshotsfile = fopen("/home/langkid1/pub/pre/snapshots.txt", "w b");
 error_reporting(E_ALL ^ E_WARNING);
 date_default_timezone_set('America/New_York');
 $curweek = date("W");
@@ -44,4 +47,5 @@ if($f)
 }
 fclose($f);
 }
+
 ?>
