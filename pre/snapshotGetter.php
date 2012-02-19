@@ -5,7 +5,7 @@
  */
 $log = fopen("snapshotGetter.log", "a");
 $date = date("D m-d-y h:i A");
-fwrite($log, "*RUN ON $date\n");
+fwrite($log, "*RUN ON $date == ");
 fclose($log);
 $snapshotsfile = fopen("/home/langkid1/pub/pre/snapshots.txt", "w b");
 error_reporting(E_ALL ^ E_WARNING);
