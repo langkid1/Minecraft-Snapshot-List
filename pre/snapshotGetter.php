@@ -25,11 +25,11 @@ $name = "12w0" . "$curweek" . "a";
 $bname = "12w0" . "$curweek" . "b";
 $cname = "12w0" . "$curweek" . "c";
 }
-//a
-$f = fopen("http://assets.minecraft.net/" . $name . "/minecraft.jar", "r");
+//c
+$f = fopen("http://assets.minecraft.net/" . $cname . "/minecraft.jar", "r");
 if($f)
 {
-    fwrite($snapshotsfile, $name . ";");
+    fwrite($snapshotsfile, $cname . ";");
 }
 fclose($f);
 //b
@@ -39,13 +39,12 @@ if($f)
     fwrite($snapshotsfile, $bname . ";");
 }
 fclose($f);
-//c
-$f = fopen("http://assets.minecraft.net/" . $cname . "/minecraft.jar", "r");
+//a
+$f = fopen("http://assets.minecraft.net/" . $name . "/minecraft.jar", "r");
 if($f)
 {
-    fwrite($snapshotsfile, $cname . ";");
+    fwrite($snapshotsfile, $name . ";");
 }
 fclose($f);
 }
-
 ?>
