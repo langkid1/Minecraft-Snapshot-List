@@ -15,11 +15,11 @@
                //This could probably be cleaned up quite a bit :|
                 echo '<tr><td>';
                 echo "$snaplist[$snapnum]";
-                echo '</td><td>N/A</td><td><a href="';
+                echo '</td><td>N/A</td><td><a target="_top" href="';
                 echo "$link";
-                echo '">Download</a></td><td><a href="';
+                echo '">Download</a></td><td><a target="_top" href="';
                 echo "$serverlink";
-                echo '">Download</a></td><td><a href="';
+                echo '">Download</a></td><td><a target="_top" href="';
                 echo "$wikilink";
                 echo '">MC Wiki Page</a></td></tr>';
            }
