@@ -21,7 +21,7 @@
                 echo "$serverlink";
                 echo '">Download</a></td><td><a href="';
                 echo "$wikilink";
-                echo '">MC Wiki Page</a></td></tr>';
+                echo '" target="_blank">MC Wiki Page</a></td></tr>';
            }
         }
         fclose($snaplistfiles);

@@ -55,7 +55,7 @@
 				<td>December 15, 2011</td>
 				<td><a href="http://assets.minecraft.net/11w50a/minecraft.jar">Download</a></td>
 				<td><a href="http://assets.minecraft.net/11w50a/minecraft_server.jar">Download</a></td>
-				<td><a href="http://www.minecraftwiki.net/wiki/Version_history/Development_versions#11w50a">MC Wiki Page</a></td>
+				<td><a href="http://www.minecraftwiki.net/wiki/Version_history/Development_versions#11w50a" target="_blank">MC Wiki Page</a></td>
 			</tr>
 
 			<tr>
@@ -64,7 +64,7 @@
 				<td>December 8, 2011</td>
 				<td><a href="http://assets.minecraft.net/11w49a/minecraft.jar">Download</a></td>
 				<td><a href="http://assets.minecraft.net/11w49a/minecraft_server.jar">Download</a></td>
-				<td><a href="http://www.minecraftwiki.net/wiki/Version_history/Development_versions#11w49a">MC Wiki Page</a></td>
+				<td><a href="http://www.minecraftwiki.net/wiki/Version_history/Development_versions#11w49a" target="_blank">MC Wiki Page</a></td>
 			</tr>
 
 			<tr>
@@ -73,7 +73,7 @@
 				<td>December 1, 2011</td>
 				<td><a href="http://assets.minecraft.net/11w48a/minecraft.jar">Download</a></td>
 				<td><a href="http://assets.minecraft.net/11w48a/minecraft_server.jar">Download</a></td>
-				<td><a href="http://www.minecraftwiki.net/wiki/Version_history/Development_versions#11w48a">MC Wiki Page</a></td>
+				<td><a href="http://www.minecraftwiki.net/wiki/Version_history/Development_versions#11w48a" target="_blank">MC Wiki Page</a></td>
 			</tr>
 
 			<tr>
@@ -82,7 +82,7 @@
 				<td>November 24, 2011</td>
 				<td><a href="http://assets.minecraft.net/11w47a/minecraft.jar">Download</a></td>
 				<td><a href="http://assets.minecraft.net/11w47a/minecraft_server.jar">Download</a></td>
-				<td><a href="http://www.minecraftwiki.net/wiki/Version_history/Development_versions#11w47a">MC Wiki Page</a></td>
+				<td><a href="http://www.minecraftwiki.net/wiki/Version_history/Development_versions#11w47a" target="_blank">MC Wiki Page</a></td>
 			</tr>
 		</table>
 		<p style="font-size:14px;" class="main">Does not include any of the "pre-releases" before the release of Minecraft 1.0</p>
