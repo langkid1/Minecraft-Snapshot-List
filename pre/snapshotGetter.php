@@ -7,8 +7,8 @@ $log = fopen("snapshotGetter.log", "a");
 $date = date("D m-d-y h:i A");
 fwrite($log, "*RUN ON $date == ");
 fclose($log);
-$snapshotsfile = fopen("/home/langkid1/pub/pre/snapshots.txt", "w b");
-error_reporting(E_ALL ^ E_WARNING);
+$snapshotsfile = fopen(/*"/home/langkid1/pub/pre/snapshots.txt"*/"snapshots.txt", "w b");
+error_reporting(E_ALL);
 date_default_timezone_set('America/New_York');
 $curweek = date("W");
 for( ; $curweek != "0"; $curweek--)
@@ -29,6 +29,7 @@ $cname = "12w0" . "$curweek" . "c";
 $f = fopen("http://assets.minecraft.net/" . $cname . "/minecraft.jar", "r");
 if($f)
 {
+    echo $cname . ' is good;';
     fwrite($snapshotsfile, $cname . ";");
 }
 fclose($f);
@@ -36,6 +37,7 @@ fclose($f);
 $f = fopen("http://assets.minecraft.net/" . $bname . "/minecraft.jar", "r");
 if($f)
 {
+    echo $bname . ' is good;';
     fwrite($snapshotsfile, $bname . ";");
 }
 fclose($f);
@@ -43,6 +45,7 @@ fclose($f);
 $f = fopen("http://assets.minecraft.net/" . $name . "/minecraft.jar", "r");
 if($f)
 {
+    echo $name . ' is good;';
     fwrite($snapshotsfile, $name . ";");
 }
 fclose($f);
